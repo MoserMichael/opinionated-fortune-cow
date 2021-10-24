@@ -1,11 +1,53 @@
 
 ## opinionated fortune cow.
 
-the cows.sh script pipes the result of [fortune](https://en.wikipedia.org/wiki/Fortune_%28Unix%29) into [cowsay](https://en.wikipedia.org/wiki/Cowsay) . Now the fortune cookie is passed through sentiment analysis, if the compound result is positive then the cow has a cheerful expression, if negative then the cow has a sad expression.
+The cows.sh script pipes the result of [fortune](https://en.wikipedia.org/wiki/Fortune_%28Unix%29) into [cowsay](https://en.wikipedia.org/wiki/Cowsay) . Now the fortune cookie is passed through sentiment analysis, if the compound result is positive then the cow has a cheerful expression, if negative then the cow has a sad expression.
 
 The first run of this script creates a python virtual environment that installs nltk, that is needed for running the sentiment analysis step.
-all this goodness is put into directory ~/.opinionated-fortune-cow
+All this goodness is put into directory ~/.opinionated-fortune-cow
 
+In the end it looks as follows:
+
+```
+ ________________________________________
+/  In the beginning was the Tao. The Tao \
+| gave birth to Space and Time.          |
+| Therefore, Space and Time are the Yin  |
+| and Yang of programming.               |
+|                                        |
+| Programmers that do not comprehend the |
+| Tao are always running out of time and |
+| space for their programs. Programmers  |
+| that comprehend the Tao always have    |
+| enough time and space to accomplish    |
+| their goals.                           |
+|                                        |
+| How could it be otherwise?             |
+|                                        |
+| -- Geoffrey James, "The Tao of         |
+\ Programming"                           /
+ ----------------------------------------
+        \   ^__^
+         \  (o)\_______
+            (__)\       )\/\
+             :) ||----w |
+                ||     ||
+nltk score: 42 '(from -100..100) state: 'good' eye: o tongue: :)
+```
+
+### Installation
+
+You need cow and fortune
+
+- ```brew install cowsay```
+- ```brew install fortune```
+
+or 
+
+- ```apt-get install cowsay```
+- ```apt-get install fortune```
+
+You also need to have python3 and bash
 
 ### what i learned from this.
 
