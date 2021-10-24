@@ -38,48 +38,33 @@ nltk score: 42 '(from -100..100) state: 'good' eye: oo tongue: :)
 Or the cow may look a bit sad, like this:
 ```
  ________________________________________
-/ A scientific truth does not triumph by \
-| convincing its opponents and making    |
-| them see the light, but rather because |
-| its opponents eventually die and a new |
-| generation grows up that is familiar   |
-| with it.                               |
+/ Power is danger.                       \
 |                                        |
-\ -- Max Planck                          /
+| -- The Centurion, "Balance of Terror", |
+\ stardate 1709.2                        /
  ----------------------------------------
         \   ^__^
-         \  (~~)\_______
+         \  (!!)\_______
             (__)\       )\/\
              :( ||----w |
                 ||     ||
-nltk score: -80 '(from -100..100) state: 'very bad' eye: ~~ tongue: :(
+nltk score: -53 '(from -100..100) state: 'bad' eye: !! tongue: :(
 ```
 
 However most of the time the cow will likely remain indifferent:
 
 ```
+
  _________________________________________
-/ I do hate sums. There is no greater     \
-| mistake than to call arithmetic an      |
-| exact science. There are permutations   |
-| and aberrations discernible to minds    |
-| entirely noble like mine; subtle        |
-| variations which ordinary accountants   |
-| fail to discover; hidden laws of number |
-| which it requires a mind like mine to   |
-| perceive. For instance, if you add a    |
-| sum from the bottom up, and then again  |
-| from the top down, the result is always |
-| different.                              |
-|                                         |
-\ -- Mrs. La Touche                       /
+/ Reading is thinking with someone else's \
+\ head instead of one's own.              /
  -----------------------------------------
         \   ^__^
          \  (..)\_______
             (__)\       )\/\
              -- ||----w |
                 ||     ||
-nltk score: 17 '(from -100..100) state: 'neutral' eye: .. tongue: --
+nltk score: 0 '(from -100..100) state: 'neutral' eye: .. tongue: --
 ```
 
 The cow might get excited about something, then she is very happy:
@@ -108,6 +93,23 @@ nltk score: 94 '(from -100..100) state: 'very good' eye: OO tongue: :)
 
 Or she might be very very sad.
 ```
+ ________________________________________
+/ A scientific truth does not triumph by \
+| convincing its opponents and making    |
+| them see the light, but rather because |
+| its opponents eventually die and a new |
+| generation grows up that is familiar   |
+| with it.                               |
+|                                        |
+\ -- Max Planck                          /
+ ----------------------------------------
+        \   ^__^
+         \  (~~)\_______
+            (__)\       )\/\
+             :( ||----w |
+                ||     ||
+nltk score: -80 '(from -100..100) state: 'very bad' eye: ~~ tongue: :(
+
  ________________________________________
 / A man would still do something out of  \
 | sheer perversity - he would create     |
