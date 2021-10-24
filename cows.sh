@@ -27,23 +27,23 @@ function run_cow {
         
     if [ "$score" -ge 60 ]; then
            state="very good"
-           EYE="O"
+           EYE="OO"
            TONGUE=":)" 
     elif [ "$score" -ge 30 ]; then 
            state="good"
-           EYE="o"
+           EYE="oo"
            TONGUE=":)" 
     elif [ "$score" -le -60 ]; then
-           state="very bad"
-           EYE="~"
+           State="very bad"
+           EYE="~~"
            TONGUE=":(" 
     elif [ "$score" -le -30 ]; then
            state="bad"
-           EYE="!"
+           EYE="!!"
            TONGUE=":(" 
     else
            state="neutral"
-           EYE="."
+           EYE=".."
            TONGUE="--" 
     fi
 

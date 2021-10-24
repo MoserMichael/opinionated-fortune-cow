@@ -28,7 +28,7 @@ In the end it looks as follows, when the cow is happy
 \ Programming"                           /
  ----------------------------------------
         \   ^__^
-         \  (o)\_______
+         \  (oo)\_______
             (__)\       )\/\
              :) ||----w |
                 ||     ||
@@ -48,7 +48,7 @@ Or the cow may look a bit sad, like this:
 \ -- Max Planck                          /
  ----------------------------------------
         \   ^__^
-         \  (~)\_______
+         \  (~~)\_______
             (__)\       )\/\
              :( ||----w |
                 ||     ||
@@ -75,7 +75,7 @@ However most of the time the cow will likely remain indifferent:
 \ -- Mrs. La Touche                       /
  -----------------------------------------
         \   ^__^
-         \  (.)\_______
+         \  (..)\_______
             (__)\       )\/\
              -- ||----w |
                 ||     ||
