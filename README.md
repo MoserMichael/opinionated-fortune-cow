@@ -106,6 +106,29 @@ The cow might get excited about something, then she is very happy:
 nltk score: 94 '(from -100..100) state: 'very good' eye: OO tongue: :)
 ```
 
+Or she might be very very sad.
+```
+ ________________________________________
+/ A man would still do something out of  \
+| sheer perversity - he would create     |
+| destruction and chaos - just to gain   |
+| his point... and if all this could in  |
+| turn be analyzed and prevented by      |
+| predicting that it would occur, then   |
+| man would deliberately go mad to prove |
+| his point.                             |
+|                                        |
+| -- Feodor Dostoevsky, "Notes From the  |
+\ Underground"                           /
+ ----------------------------------------
+        \   ^__^
+         \  (~~)\_______
+            (__)\       )\/\
+             :( ||----w |
+                ||     ||
+nltk score: -86 '(from -100..100) state: '' eye: ~~ tongue: :(
+```
+
 ### Installation
 
 You need cow and fortune
