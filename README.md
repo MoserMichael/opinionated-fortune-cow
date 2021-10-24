@@ -55,7 +55,8 @@ Or the cow may look a bit sad, like this:
 nltk score: -80 '(from -100..100) state: 'very bad' eye: ~ tongue: :(
 ```
 
-And here we get an indifferent cow;
+However most of the time the cow will likely remain indifferent:
+
 ```
  _________________________________________
 / I do hate sums. There is no greater     \
