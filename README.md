@@ -32,7 +32,7 @@ In the end it looks as follows, when the cow is happy
             (__)\       )\/\
              :) ||----w |
                 ||     ||
-nltk score: 42 '(from -100..100) state: 'good' eye: o tongue: :)
+nltk score: 42 '(from -100..100) state: 'good' eye: oo tongue: :)
 ```
 
 Or the cow may look a bit sad, like this:
@@ -52,7 +52,7 @@ Or the cow may look a bit sad, like this:
             (__)\       )\/\
              :( ||----w |
                 ||     ||
-nltk score: -80 '(from -100..100) state: 'very bad' eye: ~ tongue: :(
+nltk score: -80 '(from -100..100) state: 'very bad' eye: ~~ tongue: :(
 ```
 
 However most of the time the cow will likely remain indifferent:
@@ -79,8 +79,33 @@ However most of the time the cow will likely remain indifferent:
             (__)\       )\/\
              -- ||----w |
                 ||     ||
-nltk score: 17 '(from -100..100) state: 'neutral' eye: . tongue: --
+nltk score: 17 '(from -100..100) state: 'neutral' eye: .. tongue: --
 ```
+
+The cow might get excited about something, then she is very happy:
+
+```
+ _________________________________________
+/ If a team is in a positive frame of     \
+| mind, it will have a good attitude. If  |
+| it has a good attitude, it will make a  |
+| commitment to playing the game right.   |
+| If it plays the game right, it will win |
+| -- unless, of course, it doesn't have   |
+| enough talent to win, and no manager    |
+| can make goose-liver pate out of goose  |
+| feathers, so why worry?                 |
+|                                         |
+\ -- Sparky Anderson                      /
+ -----------------------------------------
+        \   ^__^
+         \  (OO)\_______
+            (__)\       )\/\
+             :) ||----w |
+                ||     ||
+nltk score: 94 '(from -100..100) state: 'very good' eye: OO tongue: :)
+```
+
 ### Installation
 
 You need cow and fortune
