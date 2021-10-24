@@ -6,7 +6,7 @@ The cows.sh script pipes the result of [fortune](https://en.wikipedia.org/wiki/F
 The first run of this script creates a python virtual environment that installs nltk, that is needed for running the sentiment analysis step.
 All this goodness is put into directory ~/.opinionated-fortune-cow
 
-In the end it looks as follows:
+In the end it looks as follows, when the cow is happy
 
 ```
  ________________________________________
@@ -35,6 +35,51 @@ In the end it looks as follows:
 nltk score: 42 '(from -100..100) state: 'good' eye: o tongue: :)
 ```
 
+Or the cow may look a bit sad, like this:
+```
+ ________________________________________
+/ A scientific truth does not triumph by \
+| convincing its opponents and making    |
+| them see the light, but rather because |
+| its opponents eventually die and a new |
+| generation grows up that is familiar   |
+| with it.                               |
+|                                        |
+\ -- Max Planck                          /
+ ----------------------------------------
+        \   ^__^
+         \  (~)\_______
+            (__)\       )\/\
+             :( ||----w |
+                ||     ||
+nltk score: -80 '(from -100..100) state: 'very bad' eye: ~ tongue: :(
+```
+
+And here we get an indifferent cow;
+```
+ _________________________________________
+/ I do hate sums. There is no greater     \
+| mistake than to call arithmetic an      |
+| exact science. There are permutations   |
+| and aberrations discernible to minds    |
+| entirely noble like mine; subtle        |
+| variations which ordinary accountants   |
+| fail to discover; hidden laws of number |
+| which it requires a mind like mine to   |
+| perceive. For instance, if you add a    |
+| sum from the bottom up, and then again  |
+| from the top down, the result is always |
+| different.                              |
+|                                         |
+\ -- Mrs. La Touche                       /
+ -----------------------------------------
+        \   ^__^
+         \  (.)\_______
+            (__)\       )\/\
+             -- ||----w |
+                ||     ||
+nltk score: 17 '(from -100..100) state: 'neutral' eye: . tongue: --
+```
 ### Installation
 
 You need cow and fortune
