@@ -34,7 +34,7 @@ function run_cow {
            EYE="oo"
            TONGUE=":)" 
     elif [ "$score" -le -60 ]; then
-           State="very bad"
+           state="very bad"
            EYE="~~"
            TONGUE=":(" 
     elif [ "$score" -le -30 ]; then
